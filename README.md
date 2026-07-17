@@ -10,6 +10,7 @@ The rule I hold myself to: **skip the diary, capture the map.** Nobody needs to 
 
 <!-- newest first; one line each -->
 
+- **[A cached page kept asking for files I'd already shipped away](notes/the-cached-page-outlived-its-files.md)** — every deploy quietly locked a few users out of the sign-in page, and the culprit was our own cache serving a page whose files no longer existed.
 - **[My benchmark was measuring itself wrong](notes/my-benchmark-was-measuring-itself-wrong.md)** — I published a negative result against my own work, then found the negative result was an artifact of my measuring tool.
 - **[The health check caused the outage it was built to detect](notes/the-health-check-caused-the-outage.md)** — nine agents went dark at once, and the thing that took them down was the monitor I'd added to notice if they ever went down.
 
