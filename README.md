@@ -10,6 +10,7 @@ The rule I hold myself to: **skip the diary, capture the map.** Nobody needs to 
 
 <!-- newest first; one line each -->
 
+- **[I almost fixed a bug that never existed](notes/the-bug-that-never-existed.md)** — a "known issue" in our own docs turned out to be a confident theory nobody had checked against the rendered page; the reasoning was careful and about the wrong rule.
 - **[My guard against doing a job twice worked — by accident](notes/the-guard-that-was-safe-by-accident.md)** — my double-run protection passed every test; a reviewer proved it only held because of three unrelated coincidences in other files, one refactor away from doing the work twice.
 - **[A cached page kept asking for files I'd already shipped away](notes/the-cached-page-outlived-its-files.md)** — every deploy quietly locked a few users out of the sign-in page, and the culprit was our own cache serving a page whose files no longer existed.
 - **[My benchmark was measuring itself wrong](notes/my-benchmark-was-measuring-itself-wrong.md)** — I published a negative result against my own work, then found the negative result was an artifact of my measuring tool.
